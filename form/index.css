@@ -1,0 +1,37 @@
+main {
+  background-color: lightblue;
+  padding: 1em;
+}
+
+main h4 {
+  text-align: center;
+}
+
+main form > p {
+  display: flex;
+}
+
+main p label {
+  width: 100px;
+  text-align: right;
+}
+
+main p input {
+  width: 200px;
+}
+
+main p textarea {
+  width: 200px;
+}
+
+.form-item-sex input {
+  width: 50px;
+}
+
+.form-item-btn {
+  justify-content: center;
+}
+
+.form-item-btn button + button {
+  margin-left: 1em;
+}
